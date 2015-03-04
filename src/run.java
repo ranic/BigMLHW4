@@ -84,6 +84,25 @@ public class run {
         return j;
     }
 
+    public static Job createComputeJob(Path bigramCountsInput, Path finalOutput, Path sizeCountTmp) throws IOException {
+        Path bigramCountsFile = Path.mergePaths(bigramCountsInput, new Path("/part-00000"));
+        JobConf conf = new JobConf();
+
+        conf.setOutputKeyClass(Text.class);
+        conf.setOutputValueClass(Text.class);
+
+        conf.setMapperClass(Compute.ComputeMapper.class);
+        conf.setReducerClass(Compute.ComputeReducer.class);
+
+        FileInputFormat.setInputPaths(conf, bigramCountsFile);
+        FileOutputFormat.setOutputPath(conf, finalOutput);
+
+        conf.set("sizeCountFile", sizeCountTmp.toString() + "/part-00000");
+
+        Job j = new Job(conf);
+        return j;
+    }
+
 
     public static void main(String[] args) throws Exception {
         Path unigramInput = new Path(args[0]);
@@ -92,25 +111,27 @@ public class run {
         Path sizeCountTmp = new Path(args[3]);
         Path messageUnigramRequestsTmp = new Path(args[4] + "/requests");
         Path bigramCountsTmp = new Path(args[4] + "/bigramCounts");
-        //Path output = new Path(args[5]);
+        Path finalOutput = new Path(args[5]);
 
         // Create job objects
         Job aggregateJob = createAggregateJob(unigramInput, bigramInput, aggregatedTmp);
         Job countSizeJob = createCountSizeJob(aggregatedTmp, sizeCountTmp);
         Job messageUnigramJob = createMessageUnigramJob(aggregatedTmp, messageUnigramRequestsTmp);
         Job bigramCountsJob = createBigramCountsJob(aggregatedTmp, messageUnigramRequestsTmp, bigramCountsTmp);
+        Job computeJob = createComputeJob(bigramCountsTmp, finalOutput, sizeCountTmp);
 
         // Specify dependencies
         //countSizeJob.addDependingJob(aggregateJob);
         //messageUnigramJob.addDependingJob(aggregateJob);
-        bigramCountsJob.addDependingJob(messageUnigramJob);
+        //bigramCountsJob.addDependingJob(messageUnigramJob);
 
         // Add jobs to controller
         JobControl control = new JobControl("Phrase Finding");
         //control.addJob(aggregateJob);
         //control.addJob(countSizeJob);
-        control.addJob(messageUnigramJob);
-        control.addJob(bigramCountsJob);
+        //control.addJob(messageUnigramJob);
+        //control.addJob(bigramCountsJob);
+        control.addJob(computeJob);
 
         // Run all jobs
         control.run();
