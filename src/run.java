@@ -31,8 +31,8 @@ public class run {
         return j;
     }
 
-    public static Job createCountSizeJob(Path aggregatedOut, Path sizeCountTmp) throws IOException {
-        Path input = Path.mergePaths(aggregatedOut, new Path("/part-00000"));
+    public static Job createCountSizeJob(Path aggregatedInput, Path sizeCountTmp) throws IOException {
+        Path input = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
         JobConf conf = new JobConf();
 
         conf.setOutputKeyClass(Text.class);
@@ -48,50 +48,73 @@ public class run {
         return j;
     }
 
+    public static Job createMessageUnigramJob(Path aggregatedInput, Path messageUnigramRequestsTmp) throws IOException {
+        Path aggregatedInputFile = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
+        JobConf conf = new JobConf();
+
+        conf.setOutputKeyClass(Text.class);
+        conf.setOutputValueClass(Text.class);
+
+        conf.setMapperClass(MessageUnigram.MessageMapper.class);
+        conf.setReducerClass(MessageUnigram.MessageReducer.class);
+
+        FileInputFormat.setInputPaths(conf, aggregatedInputFile);
+        FileOutputFormat.setOutputPath(conf, messageUnigramRequestsTmp);
+
+        Job j = new Job(conf);
+        return j;
+    }
+
+    public static Job createBigramCountsJob(Path aggregatedInput, Path messageUnigramInput, Path bigramCountsTmp) throws IOException {
+        Path unigramInputFile = Path.mergePaths(messageUnigramInput, new Path("/part-00000"));
+        Path aggregatedInputFile = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
+
+        JobConf conf = new JobConf();
+
+        conf.setOutputKeyClass(Text.class);
+        conf.setOutputValueClass(Text.class);
+
+        conf.setMapperClass(MessageUnigram.IdentityMapper.class);
+        conf.setReducerClass(MessageUnigram.ConcatenateReducer.class);
+
+        FileInputFormat.setInputPaths(conf, aggregatedInputFile, unigramInputFile);
+        FileOutputFormat.setOutputPath(conf, bigramCountsTmp);
+
+        Job j = new Job(conf);
+        return j;
+    }
+
 
     public static void main(String[] args) throws Exception {
         Path unigramInput = new Path(args[0]);
         Path bigramInput = new Path(args[1]);
         Path aggregatedTmp = new Path(args[2]);
         Path sizeCountTmp = new Path(args[3]);
-        //Path unigramMessageTmp = new Path(args[4]);
+        Path messageUnigramRequestsTmp = new Path(args[4] + "/requests");
+        Path bigramCountsTmp = new Path(args[4] + "/bigramCounts");
         //Path output = new Path(args[5]);
-        //int numReducers = Integer.valueOf(args[2]);
-        JobControl control = new JobControl("Phrase Finding");
 
         // Create job objects
         Job aggregateJob = createAggregateJob(unigramInput, bigramInput, aggregatedTmp);
         Job countSizeJob = createCountSizeJob(aggregatedTmp, sizeCountTmp);
+        Job messageUnigramJob = createMessageUnigramJob(aggregatedTmp, messageUnigramRequestsTmp);
+        Job bigramCountsJob = createBigramCountsJob(aggregatedTmp, messageUnigramRequestsTmp, bigramCountsTmp);
 
         // Specify dependencies
-        countSizeJob.addDependingJob(aggregateJob);
+        //countSizeJob.addDependingJob(aggregateJob);
+        //messageUnigramJob.addDependingJob(aggregateJob);
+        bigramCountsJob.addDependingJob(messageUnigramJob);
 
         // Add jobs to controller
-        control.addJob(aggregateJob);
-        control.addJob(countSizeJob);
+        JobControl control = new JobControl("Phrase Finding");
+        //control.addJob(aggregateJob);
+        //control.addJob(countSizeJob);
+        control.addJob(messageUnigramJob);
+        control.addJob(bigramCountsJob);
 
         // Run all jobs
         control.run();
-
-        //aggregateUnigram(unigramInput, unigramProcessedTmp);
-        //aggregateBigram(bigramInput, bigramProcessedTmp);
-
-        /*JobConf conf = new JobConf(Aggregate.class);
-
-        conf.setJobName("Aggr");
-
-        conf.setOutputKeyClass(Text.class);
-        conf.setOutputValueClass(IntWritable.class);
-
-        conf.setMapperClass(NB_train_hadoop.TokenizerMapper.class);
-        conf.setCombinerClass(NB_train_hadoop.IntSumReducer.class);
-        conf.setReducerClass(NB_train_hadoop.IntSumReducer.class);
-
-        FileInputFormat.setInputPaths(conf, inputPath);
-        FileOutputFormat.setOutputPath(conf, outputPath);
-
-        conf.setNumReduceTasks(numReducers);
-
-        JobClient.runJob(conf);*/
     }
+
+
 }
