@@ -1,0 +1,83 @@
+2015-03-05T15:55:07.850Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3BGA1EDSTH1CJ/PhraseFinding.jar s3://bigmldatasets/phrases/full/unigram s3://bigmldatasets/phrases/full/bigram s3://vijayj-emr-dev-bucket/phrase/output/aggregated/ s3://vijayj-emr-dev-bucket/phrase/output/sizeCount/ s3://vijayj-emr-dev-bucket/phrase/output/unigramMessage/ s3://vijayj-emr-dev-bucket/phrase/output/final'
+2015-03-05T15:55:07.852Z INFO Environment:
+  TERM=linux
+  HADOOP_PREFIX=/home/hadoop
+  CONSOLETYPE=serial
+  JAVA_HOME=/usr/java/latest
+  PIG_CONF_DIR=/home/hadoop/pig/conf
+  HBASE_HOME=/home/hadoop/hbase
+  HADOOP_YARN_HOME=/home/hadoop
+  HIVE_HOME=/home/hadoop/hive
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  YARN_HOME=/home/hadoop
+  MAIL=/var/spool/mail/hadoop
+  IMPALA_CONF_DIR=/home/hadoop/impala/conf
+  PWD=/
+  HOSTNAME=ip-172-31-19-145.us-west-2.compute.internal
+  LESS_TERMCAP_mb=[01;31m
+  LESS_TERMCAP_me=[0m
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  LESS_TERMCAP_md=[01;38;5;208m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  HISTSIZE=1000
+  HADOOP_COMMON_HOME=/home/hadoop
+  HADOOP_LOGFILE=syslog
+  PATH=/home/hadoop/pig/bin:/usr/local/cuda/bin:/usr/java/latest/bin:/home/hadoop/bin:/home/hadoop/mahout/bin:/home/hadoop/hive/bin:/home/hadoop/hbase/bin:/home/hadoop/impala/bin:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin:/home/hadoop/cascading/tools/multitool-20140224/bin:/home/hadoop/cascading/tools/load-20140223/bin:/home/hadoop/cascading/tools/lingual-client/bin:/home/hadoop/cascading/driven/bin
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3BGA1EDSTH1CJ
+  HIVE_CONF_DIR=/home/hadoop/hive/conf
+  AWS_DEFAULT_REGION=us-west-2
+  HADOOP_CONF_DIR=/home/hadoop/conf
+  IMPALA_HOME=/home/hadoop/impala
+  SHLVL=5
+  HADOOP_IDENT_STRING=hadoop
+  LANGSH_SOURCED=1
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  UPSTART_JOB=rc
+  HADOOP_HOME_WARN_SUPPRESS=true
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  AWS_RDS_HOME=/opt/aws/apitools/rds
+  PIG_CLASSPATH=/home/hadoop/pig/lib
+  LESS_TERMCAP_se=[0m
+  MAHOUT_CONF_DIR=/home/hadoop/mahout/conf
+  LOGNAME=hadoop
+  UPSTART_INSTANCE=
+  HBASE_CONF_DIR=/home/hadoop/hbase/conf
+  YARN_CONF_DIR=/home/hadoop/conf
+  AWS_PATH=/opt/aws
+  _=/usr/java/latest/bin/java
+  HADOOP_HOME=/home/hadoop
+  runlevel=3
+  LD_LIBRARY_PATH=/home/hadoop/lib/native:/usr/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib:
+  UPSTART_EVENTS=runlevel
+  MAHOUT_LOG_DIR=/mnt/var/log/apps
+  previous=N
+  EC2_HOME=/opt/aws/apitools/ec2
+  PIG_HOME=/home/hadoop/pig
+  LESS_TERMCAP_ue=[0m
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  RUNLEVEL=3
+  USER=hadoop
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3BGA1EDSTH1CJ/tmp
+  RUBYOPT=rubygems
+  PREVLEVEL=N
+  HADOOP_HDFS_HOME=/home/hadoop
+  HOME=/home/hadoop
+  HISTCONTROL=ignoredups
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  MAHOUT_HOME=/home/hadoop/mahout
+  LANG=en_US.UTF-8
+  LESS_TERMCAP_us=[04;38;5;111m
+  HADOOP_MAPRED_HOME=/home/hadoop
+2015-03-05T15:55:07.852Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3BGA1EDSTH1CJ/stdout
+2015-03-05T15:55:07.852Z INFO redirectError to /mnt/var/log/hadoop/steps/s-3BGA1EDSTH1CJ/stderr
+2015-03-05T15:55:07.852Z INFO Working dir /mnt/var/lib/hadoop/steps/s-3BGA1EDSTH1CJ
+2015-03-05T15:55:07.884Z INFO ProcessRunner started child process 3588 :
+hadoop    3588  2253  0 15:55 ?        00:00:00 bash /home/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-3BGA1EDSTH1CJ/PhraseFinding.jar s3://bigmldatasets/phrases/full/unigram s3://bigmldatasets/phrases/full/bigram s3://vijayj-emr-dev-bucket/phrase/output/aggregated/ s3://vijayj-emr-dev-bucket/phrase/output/sizeCount/ s3://vijayj-emr-dev-bucket/phrase/output/unigramMessage/ s3://vijayj-emr-dev-bucket/phrase/output/final
+2015-03-05T15:55:07.886Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3BGA1EDS...
+2015-03-05T16:10:05.964Z INFO Process still running
+2015-03-05T16:25:08.045Z INFO Process still running
+2015-03-05T16:40:10.127Z INFO Process still running
+2015-03-05T16:46:04.159Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3BGA1EDS...
+2015-03-05T16:46:07.656Z INFO Step created jobs: job_1425555188501_0014,job_1425555188501_0015,job_1425555188501_0016,job_1425555188501_0017,job_1425555188501_0018
+2015-03-05T16:46:31.683Z INFO Step succeeded with exitCode 0 and took 3083 seconds

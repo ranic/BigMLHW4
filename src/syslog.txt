@@ -1,0 +1,1046 @@
+2015-03-05 16:00:01,437 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2015-03-05 16:00:04,460 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 0%
+2015-03-05 16:00:05,467 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 0%
+2015-03-05 16:00:07,480 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 0%
+2015-03-05 16:00:11,510 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2015-03-05 16:00:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:00:12,517 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 0%
+2015-03-05 16:00:17,565 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 0%
+2015-03-05 16:00:20,585 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 0%
+2015-03-05 16:00:22,597 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2015-03-05 16:00:24,623 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 0%
+2015-03-05 16:00:28,655 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 2%
+2015-03-05 16:00:29,662 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 3%
+2015-03-05 16:00:30,670 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 3%
+2015-03-05 16:00:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:00:42,767 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 3%
+2015-03-05 16:00:49,812 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 5%
+2015-03-05 16:00:52,840 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 5%
+2015-03-05 16:00:59,882 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 6%
+2015-03-05 16:01:00,888 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 6%
+2015-03-05 16:01:02,902 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 6%
+2015-03-05 16:01:06,929 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 8%
+2015-03-05 16:01:08,942 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 8%
+2015-03-05 16:01:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:01:13,976 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 8%
+2015-03-05 16:01:20,012 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 8%
+2015-03-05 16:01:24,043 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 8%
+2015-03-05 16:01:29,080 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 8%
+2015-03-05 16:01:34,110 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 8%
+2015-03-05 16:01:39,140 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 8%
+2015-03-05 16:01:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:01:43,166 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 8%
+2015-03-05 16:01:48,200 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 8%
+2015-03-05 16:01:53,234 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 8%
+2015-03-05 16:01:58,265 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 8%
+2015-03-05 16:02:01,284 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 8%
+2015-03-05 16:02:08,332 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 8%
+2015-03-05 16:02:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:02:12,355 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 8%
+2015-03-05 16:02:16,385 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 9%
+2015-03-05 16:02:18,397 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 9%
+2015-03-05 16:02:22,428 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 9%
+2015-03-05 16:02:25,447 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 9%
+2015-03-05 16:02:26,453 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 10%
+2015-03-05 16:02:29,471 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 10%
+2015-03-05 16:02:38,532 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 10%
+2015-03-05 16:02:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:02:47,595 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 10%
+2015-03-05 16:02:50,617 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 11%
+2015-03-05 16:02:52,630 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 11%
+2015-03-05 16:02:54,646 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 12%
+2015-03-05 16:02:55,652 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 12%
+2015-03-05 16:03:04,711 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 12%
+2015-03-05 16:03:07,730 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 12%
+2015-03-05 16:03:09,746 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 15%
+2015-03-05 16:03:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:03:13,773 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 15%
+2015-03-05 16:03:16,792 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 15%
+2015-03-05 16:03:18,804 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 17%
+2015-03-05 16:03:21,822 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 17%
+2015-03-05 16:03:26,850 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 17%
+2015-03-05 16:03:27,855 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 18%
+2015-03-05 16:03:28,861 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 18%
+2015-03-05 16:03:34,899 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 18%
+2015-03-05 16:03:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:03:43,956 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 18%
+2015-03-05 16:03:46,977 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 18%
+2015-03-05 16:03:54,017 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 18%
+2015-03-05 16:03:57,035 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 21%
+2015-03-05 16:04:03,072 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 21%
+2015-03-05 16:04:11,126 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 21%
+2015-03-05 16:04:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:04:22,192 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 21%
+2015-03-05 16:04:26,214 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 22%
+2015-03-05 16:04:30,237 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 22%
+2015-03-05 16:04:32,249 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 23%
+2015-03-05 16:04:35,267 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 24%
+2015-03-05 16:04:41,300 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 24%
+2015-03-05 16:04:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:04:42,306 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 27%
+2015-03-05 16:04:44,317 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 29%
+2015-03-05 16:04:45,322 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 30%
+2015-03-05 16:04:46,333 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2015-03-05 16:04:47,339 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 34%
+2015-03-05 16:04:48,345 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 35%
+2015-03-05 16:04:49,351 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 38%
+2015-03-05 16:04:50,357 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 43%
+2015-03-05 16:04:51,363 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 44%
+2015-03-05 16:04:52,368 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 47%
+2015-03-05 16:04:53,374 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 49%
+2015-03-05 16:04:54,379 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 50%
+2015-03-05 16:04:55,385 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 53%
+2015-03-05 16:04:56,390 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 55%
+2015-03-05 16:04:57,396 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 56%
+2015-03-05 16:04:58,401 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 59%
+2015-03-05 16:05:01,418 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 63%
+2015-03-05 16:05:02,424 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 64%
+2015-03-05 16:05:04,440 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 65%
+2015-03-05 16:05:07,457 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 66%
+2015-03-05 16:05:11,587 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:05:13,491 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2015-03-05 16:05:19,525 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 68%
+2015-03-05 16:05:37,625 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2015-03-05 16:05:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:05:54,734 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 70%
+2015-03-05 16:06:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:06:12,834 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 71%
+2015-03-05 16:06:29,926 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 72%
+2015-03-05 16:06:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:06:47,020 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2015-03-05 16:07:06,124 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 74%
+2015-03-05 16:07:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:07:24,230 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 75%
+2015-03-05 16:07:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:07:42,341 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 76%
+2015-03-05 16:08:01,445 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2015-03-05 16:08:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:08:19,551 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 78%
+2015-03-05 16:08:28,608 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 80%
+2015-03-05 16:08:34,647 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 82%
+2015-03-05 16:08:36,658 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 84%
+2015-03-05 16:08:40,680 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 86%
+2015-03-05 16:08:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:08:42,690 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 88%
+2015-03-05 16:08:47,716 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 90%
+2015-03-05 16:08:48,722 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2015-03-05 16:08:50,732 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 94%
+2015-03-05 16:08:54,751 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2015-03-05 16:09:02,791 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-03-05 16:09:04,810 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0014 completed successfully
+2015-03-05 16:09:05,018 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=1218350081
+		FILE: Number of bytes written=2960787200
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=6381
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=54
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=3504078120
+		S3: Number of bytes written=1074936985
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=54
+		Launched reduce tasks=11
+		Data-local map tasks=54
+		Total time spent by all maps in occupied slots (ms)=33131889
+		Total time spent by all reduces in occupied slots (ms)=34683224
+		Total time spent by all map tasks (ms)=11043963
+		Total time spent by all reduce tasks (ms)=4335403
+		Total vcore-seconds taken by all map tasks=11043963
+		Total vcore-seconds taken by all reduce tasks=4335403
+		Total megabyte-seconds taken by all map tasks=8481763584
+		Total megabyte-seconds taken by all reduce tasks=8878905344
+	Map-Reduce Framework
+		Map input records=155947739
+		Map output records=141837045
+		Map output bytes=3065456910
+		Map output materialized bytes=1735906420
+		Input split bytes=6381
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=37553998
+		Reduce shuffle bytes=1735906420
+		Reduce input records=141837045
+		Reduce output records=37553998
+		Spilled Records=283674090
+		Shuffled Maps =594
+		Failed Shuffles=0
+		Merged Map outputs=594
+		GC time elapsed (ms)=129135
+		CPU time spent (ms)=5053350
+		Physical memory (bytes) snapshot=39069286400
+		Virtual memory (bytes) snapshot=95115522048
+		Total committed heap usage (bytes)=36756783104
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=3504078120
+	File Output Format Counters 
+		Bytes Written=1074936985
+2015-03-05 16:09:05,050 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at /172.31.19.145:9022
+2015-03-05 16:09:05,158 WARN org.apache.hadoop.mapreduce.JobSubmitter (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-03-05 16:09:05,674 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://vijayj-emr-dev-bucket/phrase/output/aggregated with recursive false
+2015-03-05 16:09:05,871 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 11
+2015-03-05 16:09:07,060 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:22
+2015-03-05 16:09:07,485 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1425555188501_0015
+2015-03-05 16:09:07,500 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1425555188501_0015
+2015-03-05 16:09:07,504 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://172.31.19.145:9046/proxy/application_1425555188501_0015/
+2015-03-05 16:09:07,504 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1425555188501_0015
+2015-03-05 16:09:11,587 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 14:79 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:09:17,666 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0015 running in uber mode : false
+2015-03-05 16:09:17,667 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2015-03-05 16:09:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:09:56,985 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2015-03-05 16:10:03,031 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2015-03-05 16:10:07,060 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2015-03-05 16:10:10,084 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2015-03-05 16:10:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:10:12,100 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2015-03-05 16:10:13,107 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2015-03-05 16:10:14,113 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2015-03-05 16:10:15,120 INFO org.apache.hadoop.mapreduce.Job (main):  map 9% reduce 0%
+2015-03-05 16:10:16,128 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2015-03-05 16:10:17,134 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2015-03-05 16:10:19,148 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2015-03-05 16:10:20,155 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2015-03-05 16:10:21,170 INFO org.apache.hadoop.mapreduce.Job (main):  map 16% reduce 0%
+2015-03-05 16:10:22,176 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2015-03-05 16:10:23,183 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2015-03-05 16:10:24,189 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2015-03-05 16:10:25,196 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2015-03-05 16:10:26,203 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2015-03-05 16:10:27,210 INFO org.apache.hadoop.mapreduce.Job (main):  map 24% reduce 0%
+2015-03-05 16:10:28,217 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2015-03-05 16:10:29,224 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2015-03-05 16:10:30,230 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2015-03-05 16:10:31,237 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2015-03-05 16:10:32,244 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2015-03-05 16:10:33,250 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2015-03-05 16:10:34,272 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2015-03-05 16:10:35,278 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2015-03-05 16:10:36,293 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2015-03-05 16:10:37,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2015-03-05 16:10:38,316 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2015-03-05 16:10:39,322 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2015-03-05 16:10:40,333 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 0%
+2015-03-05 16:10:41,339 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 0%
+2015-03-05 16:10:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:10:42,347 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 0%
+2015-03-05 16:10:43,353 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 0%
+2015-03-05 16:10:44,360 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 0%
+2015-03-05 16:10:45,366 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 0%
+2015-03-05 16:10:47,380 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 0%
+2015-03-05 16:10:49,391 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2015-03-05 16:10:50,398 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 0%
+2015-03-05 16:10:51,405 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 0%
+2015-03-05 16:10:53,419 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 0%
+2015-03-05 16:10:56,440 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 0%
+2015-03-05 16:10:59,459 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 0%
+2015-03-05 16:11:00,466 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 0%
+2015-03-05 16:11:01,473 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 0%
+2015-03-05 16:11:02,482 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 0%
+2015-03-05 16:11:03,491 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 0%
+2015-03-05 16:11:04,498 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 0%
+2015-03-05 16:11:06,516 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 0%
+2015-03-05 16:11:08,531 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 0%
+2015-03-05 16:11:09,538 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 0%
+2015-03-05 16:11:10,545 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 0%
+2015-03-05 16:11:11,551 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 0%
+2015-03-05 16:11:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:11:13,569 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 0%
+2015-03-05 16:11:16,597 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 0%
+2015-03-05 16:11:19,616 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 0%
+2015-03-05 16:11:22,635 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 0%
+2015-03-05 16:11:25,654 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 0%
+2015-03-05 16:11:32,701 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 3%
+2015-03-05 16:11:33,707 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 5%
+2015-03-05 16:11:34,714 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 6%
+2015-03-05 16:11:36,726 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 8%
+2015-03-05 16:11:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:11:43,768 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 8%
+2015-03-05 16:11:46,787 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 8%
+2015-03-05 16:11:47,793 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 8%
+2015-03-05 16:11:48,799 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 8%
+2015-03-05 16:11:49,805 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 8%
+2015-03-05 16:11:50,812 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 8%
+2015-03-05 16:11:51,818 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 8%
+2015-03-05 16:11:52,826 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 8%
+2015-03-05 16:11:53,832 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 8%
+2015-03-05 16:11:54,842 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 9%
+2015-03-05 16:11:55,848 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 9%
+2015-03-05 16:11:56,855 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 10%
+2015-03-05 16:11:57,863 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 12%
+2015-03-05 16:11:59,879 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 14%
+2015-03-05 16:12:00,886 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2015-03-05 16:12:01,892 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 16%
+2015-03-05 16:12:02,899 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 17%
+2015-03-05 16:12:03,905 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 20%
+2015-03-05 16:12:04,912 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 21%
+2015-03-05 16:12:05,918 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 22%
+2015-03-05 16:12:06,925 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 25%
+2015-03-05 16:12:07,932 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 26%
+2015-03-05 16:12:09,973 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2015-03-05 16:12:11,587 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:12:12,993 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 39%
+2015-03-05 16:12:16,019 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 44%
+2015-03-05 16:12:19,038 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 47%
+2015-03-05 16:12:20,044 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 52%
+2015-03-05 16:12:21,050 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 61%
+2015-03-05 16:12:22,057 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 62%
+2015-03-05 16:12:23,063 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 63%
+2015-03-05 16:12:24,069 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 65%
+2015-03-05 16:12:26,081 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 66%
+2015-03-05 16:12:27,087 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2015-03-05 16:12:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:12:46,207 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 68%
+2015-03-05 16:13:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:13:23,440 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2015-03-05 16:13:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:13:54,633 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 70%
+2015-03-05 16:14:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:14:27,827 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 71%
+2015-03-05 16:14:41,587 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:14:58,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 72%
+2015-03-05 16:15:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:15:37,248 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2015-03-05 16:15:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:16:10,453 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 74%
+2015-03-05 16:16:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:16:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:16:47,686 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 75%
+2015-03-05 16:17:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:17:24,898 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 76%
+2015-03-05 16:17:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:18:01,103 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2015-03-05 16:18:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:18:34,298 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 78%
+2015-03-05 16:18:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:18:57,433 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 80%
+2015-03-05 16:19:04,473 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 82%
+2015-03-05 16:19:05,479 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 84%
+2015-03-05 16:19:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:19:27,600 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2015-03-05 16:19:29,610 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 86%
+2015-03-05 16:19:34,637 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 87%
+2015-03-05 16:19:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:19:46,700 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 90%
+2015-03-05 16:19:48,711 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2015-03-05 16:20:03,787 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 93%
+2015-03-05 16:20:05,798 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 94%
+2015-03-05 16:20:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:20:14,844 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2015-03-05 16:20:19,871 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 98%
+2015-03-05 16:20:20,876 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-03-05 16:20:21,890 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0015 completed successfully
+2015-03-05 16:20:21,951 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=1244448600
+		FILE: Number of bytes written=2023655114
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2838
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=22
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1075000711
+		S3: Number of bytes written=2503660205
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=23
+		Launched reduce tasks=11
+		Data-local map tasks=23
+		Total time spent by all maps in occupied slots (ms)=8461728
+		Total time spent by all reduces in occupied slots (ms)=43048408
+		Total time spent by all map tasks (ms)=2820576
+		Total time spent by all reduce tasks (ms)=5381051
+		Total vcore-seconds taken by all map tasks=2820576
+		Total vcore-seconds taken by all reduce tasks=5381051
+		Total megabyte-seconds taken by all map tasks=2166202368
+		Total megabyte-seconds taken by all reduce tasks=11020392448
+	Map-Reduce Framework
+		Map input records=37553998
+		Map output records=72664585
+		Map output bytes=1668180966
+		Map output materialized bytes=784274568
+		Input split bytes=2838
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2443411
+		Reduce shuffle bytes=784274568
+		Reduce input records=72664585
+		Reduce output records=70221174
+		Spilled Records=195184632
+		Shuffled Maps =242
+		Failed Shuffles=0
+		Merged Map outputs=242
+		GC time elapsed (ms)=74237
+		CPU time spent (ms)=4469210
+		Physical memory (bytes) snapshot=20547411968
+		Virtual memory (bytes) snapshot=54319284224
+		Total committed heap usage (bytes)=18376818688
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1075000711
+	File Output Format Counters 
+		Bytes Written=2503660205
+2015-03-05 16:20:21,994 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at /172.31.19.145:9022
+2015-03-05 16:20:22,109 WARN org.apache.hadoop.mapreduce.JobSubmitter (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-03-05 16:20:22,469 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://vijayj-emr-dev-bucket/phrase/output/aggregated with recursive false
+2015-03-05 16:20:22,714 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://vijayj-emr-dev-bucket/phrase/output/unigramMessage/requests with recursive false
+2015-03-05 16:20:22,922 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 22
+2015-03-05 16:20:23,170 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:66
+2015-03-05 16:20:23,295 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1425555188501_0016
+2015-03-05 16:20:23,309 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1425555188501_0016
+2015-03-05 16:20:23,313 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://172.31.19.145:9046/proxy/application_1425555188501_0016/
+2015-03-05 16:20:23,313 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1425555188501_0016
+2015-03-05 16:20:33,484 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0016 running in uber mode : false
+2015-03-05 16:20:33,484 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2015-03-05 16:20:41,587 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 14:110 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:21:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:21:28,916 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2015-03-05 16:21:37,984 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2015-03-05 16:21:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:21:43,015 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2015-03-05 16:21:47,046 INFO org.apache.hadoop.mapreduce.Job (main):  map 4% reduce 0%
+2015-03-05 16:21:50,069 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2015-03-05 16:21:53,087 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2015-03-05 16:21:57,113 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2015-03-05 16:22:00,133 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2015-03-05 16:22:03,157 INFO org.apache.hadoop.mapreduce.Job (main):  map 9% reduce 0%
+2015-03-05 16:22:06,176 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2015-03-05 16:22:09,198 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2015-03-05 16:22:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:22:12,217 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2015-03-05 16:22:15,236 INFO org.apache.hadoop.mapreduce.Job (main):  map 13% reduce 0%
+2015-03-05 16:22:18,256 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2015-03-05 16:22:21,276 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2015-03-05 16:22:24,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 16% reduce 0%
+2015-03-05 16:22:28,325 INFO org.apache.hadoop.mapreduce.Job (main):  map 17% reduce 0%
+2015-03-05 16:22:31,344 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2015-03-05 16:22:34,362 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2015-03-05 16:22:37,387 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2015-03-05 16:22:40,414 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2015-03-05 16:22:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:22:43,436 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2015-03-05 16:22:46,456 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2015-03-05 16:22:50,487 INFO org.apache.hadoop.mapreduce.Job (main):  map 24% reduce 0%
+2015-03-05 16:22:55,549 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2015-03-05 16:23:02,590 INFO org.apache.hadoop.mapreduce.Job (main):  map 26% reduce 0%
+2015-03-05 16:23:05,609 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2015-03-05 16:23:07,622 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2015-03-05 16:23:10,641 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2015-03-05 16:23:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:23:11,648 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2015-03-05 16:23:12,655 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2015-03-05 16:23:13,661 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2015-03-05 16:23:15,674 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2015-03-05 16:23:21,716 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2015-03-05 16:23:23,735 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2015-03-05 16:23:38,828 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2015-03-05 16:23:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:23:46,874 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2015-03-05 16:23:48,885 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2015-03-05 16:23:52,909 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2015-03-05 16:23:53,915 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2015-03-05 16:23:55,928 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 0%
+2015-03-05 16:23:58,958 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2015-03-05 16:24:00,971 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 1%
+2015-03-05 16:24:02,998 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 1%
+2015-03-05 16:24:09,032 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 1%
+2015-03-05 16:24:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:24:15,077 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 1%
+2015-03-05 16:24:17,088 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 2%
+2015-03-05 16:24:20,114 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 3%
+2015-03-05 16:24:25,147 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 3%
+2015-03-05 16:24:30,177 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 3%
+2015-03-05 16:24:32,196 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 4%
+2015-03-05 16:24:34,210 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 4%
+2015-03-05 16:24:37,232 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 5%
+2015-03-05 16:24:38,238 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 5%
+2015-03-05 16:24:40,249 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 5%
+2015-03-05 16:24:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:24:43,268 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 5%
+2015-03-05 16:24:46,285 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 5%
+2015-03-05 16:24:49,303 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 5%
+2015-03-05 16:24:52,323 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 5%
+2015-03-05 16:24:56,345 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 5%
+2015-03-05 16:25:01,372 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 5%
+2015-03-05 16:25:07,407 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 5%
+2015-03-05 16:25:10,424 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 5%
+2015-03-05 16:25:11,431 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 6%
+2015-03-05 16:25:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:25:14,449 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 6%
+2015-03-05 16:25:15,455 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 6%
+2015-03-05 16:25:16,460 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 7%
+2015-03-05 16:25:18,472 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 7%
+2015-03-05 16:25:29,542 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 7%
+2015-03-05 16:25:32,560 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 7%
+2015-03-05 16:25:34,572 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 8%
+2015-03-05 16:25:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:25:42,617 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 8%
+2015-03-05 16:25:49,661 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 10%
+2015-03-05 16:25:52,694 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2015-03-05 16:25:55,711 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2015-03-05 16:25:58,739 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 10%
+2015-03-05 16:26:00,750 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 10%
+2015-03-05 16:26:03,767 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 10%
+2015-03-05 16:26:05,779 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 10%
+2015-03-05 16:26:07,790 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 10%
+2015-03-05 16:26:09,804 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 10%
+2015-03-05 16:26:10,812 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 10%
+2015-03-05 16:26:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:26:12,823 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 10%
+2015-03-05 16:26:14,834 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 10%
+2015-03-05 16:26:16,851 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 10%
+2015-03-05 16:26:17,858 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 10%
+2015-03-05 16:26:19,869 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 11%
+2015-03-05 16:26:20,876 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 11%
+2015-03-05 16:26:21,882 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 11%
+2015-03-05 16:26:22,888 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 12%
+2015-03-05 16:26:24,900 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 12%
+2015-03-05 16:26:27,916 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 12%
+2015-03-05 16:26:29,928 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 13%
+2015-03-05 16:26:32,946 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 13%
+2015-03-05 16:26:34,959 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 13%
+2015-03-05 16:26:36,970 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 14%
+2015-03-05 16:26:38,986 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 14%
+2015-03-05 16:26:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:26:42,003 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 14%
+2015-03-05 16:26:43,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 14%
+2015-03-05 16:26:44,013 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 17%
+2015-03-05 16:26:45,020 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 17%
+2015-03-05 16:26:47,030 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 17%
+2015-03-05 16:26:50,052 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 18%
+2015-03-05 16:26:51,062 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 21%
+2015-03-05 16:26:52,067 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 22%
+2015-03-05 16:26:54,080 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 24%
+2015-03-05 16:26:55,085 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 29%
+2015-03-05 16:26:56,091 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 30%
+2015-03-05 16:26:57,096 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 32%
+2015-03-05 16:26:58,102 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 37%
+2015-03-05 16:26:59,107 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 38%
+2015-03-05 16:27:00,113 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 41%
+2015-03-05 16:27:01,119 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 43%
+2015-03-05 16:27:03,132 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 47%
+2015-03-05 16:27:04,138 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 48%
+2015-03-05 16:27:05,143 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 49%
+2015-03-05 16:27:06,149 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 55%
+2015-03-05 16:27:07,155 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 56%
+2015-03-05 16:27:08,160 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 57%
+2015-03-05 16:27:09,167 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 58%
+2015-03-05 16:27:10,172 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 61%
+2015-03-05 16:27:11,178 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 62%
+2015-03-05 16:27:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:27:13,189 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 63%
+2015-03-05 16:27:16,204 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 65%
+2015-03-05 16:27:19,221 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 66%
+2015-03-05 16:27:22,239 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2015-03-05 16:27:25,255 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 68%
+2015-03-05 16:27:40,338 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2015-03-05 16:27:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:27:54,415 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 70%
+2015-03-05 16:28:07,495 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 71%
+2015-03-05 16:28:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:28:21,573 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 72%
+2015-03-05 16:28:34,647 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2015-03-05 16:28:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:28:46,716 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 74%
+2015-03-05 16:29:00,800 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 75%
+2015-03-05 16:29:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:29:14,880 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 76%
+2015-03-05 16:29:31,982 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2015-03-05 16:29:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:29:45,052 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 78%
+2015-03-05 16:30:00,132 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 79%
+2015-03-05 16:30:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:30:15,233 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 80%
+2015-03-05 16:30:17,245 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 81%
+2015-03-05 16:30:21,276 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 82%
+2015-03-05 16:30:22,281 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 83%
+2015-03-05 16:30:27,308 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2015-03-05 16:30:34,342 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 86%
+2015-03-05 16:30:37,358 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 87%
+2015-03-05 16:30:40,374 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 89%
+2015-03-05 16:30:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:30:49,416 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 90%
+2015-03-05 16:30:53,436 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 91%
+2015-03-05 16:30:56,450 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 93%
+2015-03-05 16:30:57,456 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 95%
+2015-03-05 16:30:59,466 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2015-03-05 16:31:02,481 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 97%
+2015-03-05 16:31:04,491 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 98%
+2015-03-05 16:31:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:31:27,602 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-03-05 16:31:30,626 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0016 completed successfully
+2015-03-05 16:31:30,685 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=1670854239
+		FILE: Number of bytes written=3290525329
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=9086
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=66
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=3578908920
+		S3: Number of bytes written=2449144674
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=66
+		Launched reduce tasks=11
+		Data-local map tasks=66
+		Total time spent by all maps in occupied slots (ms)=23537511
+		Total time spent by all reduces in occupied slots (ms)=28071912
+		Total time spent by all map tasks (ms)=7845837
+		Total time spent by all reduce tasks (ms)=3508989
+		Total vcore-seconds taken by all map tasks=7845837
+		Total vcore-seconds taken by all reduce tasks=3508989
+		Total megabyte-seconds taken by all map tasks=6025602816
+		Total megabyte-seconds taken by all reduce tasks=7186409472
+	Map-Reduce Framework
+		Map input records=107775172
+		Map output records=105331761
+		Map output bytes=3526601574
+		Map output materialized bytes=1611928810
+		Input split bytes=9086
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=35110587
+		Reduce shuffle bytes=1611928810
+		Reduce input records=105331761
+		Reduce output records=35110587
+		Spilled Records=210663522
+		Shuffled Maps =726
+		Failed Shuffles=0
+		Merged Map outputs=726
+		GC time elapsed (ms)=100487
+		CPU time spent (ms)=3733520
+		Physical memory (bytes) snapshot=43259154432
+		Virtual memory (bytes) snapshot=110040219648
+		Total committed heap usage (bytes)=41704488960
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=3578908920
+	File Output Format Counters 
+		Bytes Written=2449144674
+2015-03-05 16:31:30,729 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at /172.31.19.145:9022
+2015-03-05 16:31:30,854 WARN org.apache.hadoop.mapreduce.JobSubmitter (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-03-05 16:31:31,367 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://vijayj-emr-dev-bucket/phrase/output/aggregated with recursive false
+2015-03-05 16:31:31,632 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 11
+2015-03-05 16:31:33,125 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:22
+2015-03-05 16:31:33,866 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1425555188501_0017
+2015-03-05 16:31:33,882 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1425555188501_0017
+2015-03-05 16:31:33,885 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://172.31.19.145:9046/proxy/application_1425555188501_0017/
+2015-03-05 16:31:33,885 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1425555188501_0017
+2015-03-05 16:31:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 14:79 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:31:44,042 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0017 running in uber mode : false
+2015-03-05 16:31:44,042 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2015-03-05 16:32:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:32:23,349 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2015-03-05 16:32:30,399 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2015-03-05 16:32:33,419 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2015-03-05 16:32:35,438 INFO org.apache.hadoop.mapreduce.Job (main):  map 4% reduce 0%
+2015-03-05 16:32:37,450 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2015-03-05 16:32:38,456 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2015-03-05 16:32:39,462 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2015-03-05 16:32:40,469 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2015-03-05 16:32:41,475 INFO org.apache.hadoop.mapreduce.Job (main):  map 9% reduce 0%
+2015-03-05 16:32:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:32:42,480 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2015-03-05 16:32:43,486 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2015-03-05 16:32:44,510 INFO org.apache.hadoop.mapreduce.Job (main):  map 13% reduce 0%
+2015-03-05 16:32:45,516 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2015-03-05 16:32:46,522 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2015-03-05 16:32:47,528 INFO org.apache.hadoop.mapreduce.Job (main):  map 17% reduce 0%
+2015-03-05 16:32:48,534 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2015-03-05 16:32:49,540 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2015-03-05 16:32:50,546 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2015-03-05 16:32:51,557 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2015-03-05 16:32:52,562 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2015-03-05 16:32:53,569 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2015-03-05 16:32:54,575 INFO org.apache.hadoop.mapreduce.Job (main):  map 26% reduce 0%
+2015-03-05 16:32:55,581 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2015-03-05 16:32:56,588 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2015-03-05 16:32:57,595 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2015-03-05 16:32:58,601 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2015-03-05 16:32:59,613 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2015-03-05 16:33:00,619 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2015-03-05 16:33:01,628 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2015-03-05 16:33:02,634 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2015-03-05 16:33:03,640 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2015-03-05 16:33:04,646 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2015-03-05 16:33:05,653 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2015-03-05 16:33:06,664 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 0%
+2015-03-05 16:33:07,670 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 0%
+2015-03-05 16:33:08,676 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2015-03-05 16:33:09,682 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 0%
+2015-03-05 16:33:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:33:11,695 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 0%
+2015-03-05 16:33:12,704 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 0%
+2015-03-05 16:33:13,710 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2015-03-05 16:33:14,717 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 0%
+2015-03-05 16:33:16,729 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 0%
+2015-03-05 16:33:17,734 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 0%
+2015-03-05 16:33:18,740 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2015-03-05 16:33:20,754 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 0%
+2015-03-05 16:33:22,767 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 0%
+2015-03-05 16:33:23,777 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 0%
+2015-03-05 16:33:25,803 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 0%
+2015-03-05 16:33:26,809 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 0%
+2015-03-05 16:33:27,816 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2015-03-05 16:33:29,828 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 0%
+2015-03-05 16:33:31,840 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 0%
+2015-03-05 16:33:32,847 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 0%
+2015-03-05 16:33:34,859 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 0%
+2015-03-05 16:33:35,865 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 0%
+2015-03-05 16:33:36,872 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 0%
+2015-03-05 16:33:38,886 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 0%
+2015-03-05 16:33:40,900 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 0%
+2015-03-05 16:33:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:33:42,913 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 0%
+2015-03-05 16:33:44,925 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 0%
+2015-03-05 16:33:47,945 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 15%
+2015-03-05 16:33:49,960 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 15%
+2015-03-05 16:33:51,972 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 15%
+2015-03-05 16:33:52,978 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 15%
+2015-03-05 16:33:53,984 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 15%
+2015-03-05 16:33:54,989 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 15%
+2015-03-05 16:33:57,000 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 15%
+2015-03-05 16:33:58,006 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 15%
+2015-03-05 16:34:00,017 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 15%
+2015-03-05 16:34:03,037 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 15%
+2015-03-05 16:34:05,052 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 15%
+2015-03-05 16:34:07,065 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 15%
+2015-03-05 16:34:09,075 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 20%
+2015-03-05 16:34:10,081 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 20%
+2015-03-05 16:34:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:34:12,091 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 20%
+2015-03-05 16:34:13,097 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 21%
+2015-03-05 16:34:14,102 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 21%
+2015-03-05 16:34:16,113 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 21%
+2015-03-05 16:34:17,118 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 21%
+2015-03-05 16:34:20,133 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 21%
+2015-03-05 16:34:24,158 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 21%
+2015-03-05 16:34:28,181 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 26%
+2015-03-05 16:34:29,187 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 26%
+2015-03-05 16:34:31,198 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 27%
+2015-03-05 16:34:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:34:43,260 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 32%
+2015-03-05 16:34:55,319 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2015-03-05 16:35:10,395 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2015-03-05 16:35:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:35:31,509 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 68%
+2015-03-05 16:35:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:35:58,642 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2015-03-05 16:36:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:36:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:36:55,917 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 70%
+2015-03-05 16:37:09,984 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-03-05 16:37:10,998 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0017 completed successfully
+2015-03-05 16:37:11,062 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=568552512
+		FILE: Number of bytes written=908088856
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2838
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=22
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1075050383
+		S3: Number of bytes written=155
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=24
+		Launched reduce tasks=1
+		Data-local map tasks=24
+		Total time spent by all maps in occupied slots (ms)=8470959
+		Total time spent by all reduces in occupied slots (ms)=1793032
+		Total time spent by all map tasks (ms)=2823653
+		Total time spent by all reduce tasks (ms)=224129
+		Total vcore-seconds taken by all map tasks=2823653
+		Total vcore-seconds taken by all reduce tasks=224129
+		Total megabyte-seconds taken by all map tasks=2168565504
+		Total megabyte-seconds taken by all reduce tasks=459016192
+	Map-Reduce Framework
+		Map input records=37553998
+		Map output records=145329170
+		Map output bytes=3420122317
+		Map output materialized bytes=337230395
+		Input split bytes=2838
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=6
+		Reduce shuffle bytes=337230395
+		Reduce input records=145329170
+		Reduce output records=6
+		Spilled Records=390369264
+		Shuffled Maps =22
+		Failed Shuffles=0
+		Merged Map outputs=22
+		GC time elapsed (ms)=26583
+		CPU time spent (ms)=1006250
+		Physical memory (bytes) snapshot=12682956800
+		Virtual memory (bytes) snapshot=30285799424
+		Total committed heap usage (bytes)=12102139904
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1075050383
+	File Output Format Counters 
+		Bytes Written=155
+2015-03-05 16:37:11,094 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at /172.31.19.145:9022
+2015-03-05 16:37:11,214 WARN org.apache.hadoop.mapreduce.JobSubmitter (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-03-05 16:37:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 12:27 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:37:11,827 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): listStatus s3://vijayj-emr-dev-bucket/phrase/output/unigramMessage/bigramCounts with recursive false
+2015-03-05 16:37:12,039 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 11
+2015-03-05 16:37:12,331 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:44
+2015-03-05 16:37:12,481 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1425555188501_0018
+2015-03-05 16:37:12,493 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1425555188501_0018
+2015-03-05 16:37:12,496 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://172.31.19.145:9046/proxy/application_1425555188501_0018/
+2015-03-05 16:37:12,496 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1425555188501_0018
+2015-03-05 16:37:23,644 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0018 running in uber mode : false
+2015-03-05 16:37:23,645 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2015-03-05 16:37:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 14:74 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:38:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:38:15,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2015-03-05 16:38:25,365 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2015-03-05 16:38:31,401 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2015-03-05 16:38:35,427 INFO org.apache.hadoop.mapreduce.Job (main):  map 4% reduce 0%
+2015-03-05 16:38:38,445 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2015-03-05 16:38:41,464 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2015-03-05 16:38:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:38:43,480 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2015-03-05 16:38:46,501 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2015-03-05 16:38:47,506 INFO org.apache.hadoop.mapreduce.Job (main):  map 9% reduce 0%
+2015-03-05 16:38:49,519 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2015-03-05 16:38:52,536 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2015-03-05 16:38:53,542 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2015-03-05 16:38:55,555 INFO org.apache.hadoop.mapreduce.Job (main):  map 13% reduce 0%
+2015-03-05 16:38:57,568 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2015-03-05 16:38:59,579 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2015-03-05 16:39:01,597 INFO org.apache.hadoop.mapreduce.Job (main):  map 16% reduce 0%
+2015-03-05 16:39:03,610 INFO org.apache.hadoop.mapreduce.Job (main):  map 17% reduce 0%
+2015-03-05 16:39:05,624 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2015-03-05 16:39:08,643 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2015-03-05 16:39:09,649 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2015-03-05 16:39:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:39:11,668 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2015-03-05 16:39:14,687 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2015-03-05 16:39:15,692 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2015-03-05 16:39:17,708 INFO org.apache.hadoop.mapreduce.Job (main):  map 24% reduce 0%
+2015-03-05 16:39:20,739 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2015-03-05 16:39:21,744 INFO org.apache.hadoop.mapreduce.Job (main):  map 26% reduce 0%
+2015-03-05 16:39:23,763 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2015-03-05 16:39:25,774 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2015-03-05 16:39:27,795 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2015-03-05 16:39:29,810 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2015-03-05 16:39:31,838 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2015-03-05 16:39:33,857 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2015-03-05 16:39:35,877 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2015-03-05 16:39:37,888 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2015-03-05 16:39:39,900 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2015-03-05 16:39:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:39:41,912 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2015-03-05 16:39:42,923 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2015-03-05 16:39:43,929 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2015-03-05 16:39:45,949 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2015-03-05 16:39:46,955 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2015-03-05 16:39:47,964 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 0%
+2015-03-05 16:39:49,975 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 0%
+2015-03-05 16:39:51,986 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2015-03-05 16:39:53,998 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 0%
+2015-03-05 16:39:56,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 0%
+2015-03-05 16:39:59,028 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2015-03-05 16:40:00,034 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 0%
+2015-03-05 16:40:02,045 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2015-03-05 16:40:03,051 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 0%
+2015-03-05 16:40:04,057 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 0%
+2015-03-05 16:40:05,063 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 0%
+2015-03-05 16:40:09,089 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 0%
+2015-03-05 16:40:11,100 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 0%
+2015-03-05 16:40:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:40:12,109 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 0%
+2015-03-05 16:40:14,121 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 0%
+2015-03-05 16:40:15,132 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 0%
+2015-03-05 16:40:16,138 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2015-03-05 16:40:34,239 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 2%
+2015-03-05 16:40:40,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 4%
+2015-03-05 16:40:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:40:43,289 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 4%
+2015-03-05 16:40:44,295 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 8%
+2015-03-05 16:40:47,311 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 8%
+2015-03-05 16:40:48,316 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 8%
+2015-03-05 16:40:49,321 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 10%
+2015-03-05 16:40:51,332 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 10%
+2015-03-05 16:40:52,337 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2015-03-05 16:40:54,348 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 10%
+2015-03-05 16:40:55,356 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 10%
+2015-03-05 16:40:56,361 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 10%
+2015-03-05 16:40:57,367 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 10%
+2015-03-05 16:40:58,373 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 10%
+2015-03-05 16:40:59,380 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 11%
+2015-03-05 16:41:01,391 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 11%
+2015-03-05 16:41:03,406 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 11%
+2015-03-05 16:41:04,413 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 11%
+2015-03-05 16:41:06,424 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 12%
+2015-03-05 16:41:08,436 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 12%
+2015-03-05 16:41:09,441 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 12%
+2015-03-05 16:41:11,457 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 12%
+2015-03-05 16:41:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:41:13,468 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 12%
+2015-03-05 16:41:14,473 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 12%
+2015-03-05 16:41:15,479 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 12%
+2015-03-05 16:41:16,486 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 13%
+2015-03-05 16:41:21,518 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 16%
+2015-03-05 16:41:22,528 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 16%
+2015-03-05 16:41:28,574 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 16%
+2015-03-05 16:41:31,590 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 19%
+2015-03-05 16:41:32,596 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 19%
+2015-03-05 16:41:33,602 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 19%
+2015-03-05 16:41:35,613 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 20%
+2015-03-05 16:41:36,618 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 21%
+2015-03-05 16:41:37,627 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 23%
+2015-03-05 16:41:38,633 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 26%
+2015-03-05 16:41:39,638 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 37%
+2015-03-05 16:41:40,648 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 44%
+2015-03-05 16:41:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:41:41,653 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 47%
+2015-03-05 16:41:42,658 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 49%
+2015-03-05 16:41:53,720 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 55%
+2015-03-05 16:41:56,736 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 61%
+2015-03-05 16:41:57,741 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2015-03-05 16:42:03,777 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 68%
+2015-03-05 16:42:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:42:27,919 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2015-03-05 16:42:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:42:47,019 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 70%
+2015-03-05 16:43:09,135 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 71%
+2015-03-05 16:43:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:43:29,252 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 72%
+2015-03-05 16:43:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:43:49,360 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2015-03-05 16:44:10,463 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 74%
+2015-03-05 16:44:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:44:31,582 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 75%
+2015-03-05 16:44:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:44:49,675 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 76%
+2015-03-05 16:45:01,738 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 78%
+2015-03-05 16:45:08,778 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 81%
+2015-03-05 16:45:11,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:45:18,834 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 83%
+2015-03-05 16:45:25,872 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2015-03-05 16:45:30,897 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 87%
+2015-03-05 16:45:32,908 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 89%
+2015-03-05 16:45:37,933 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2015-03-05 16:45:41,586 INFO amazon.emr.metrics.MetricsSaver (Thread-3): Saved 8:22 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin
+2015-03-05 16:45:45,971 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 94%
+2015-03-05 16:45:53,004 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2015-03-05 16:46:02,047 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2015-03-05 16:46:03,061 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1425555188501_0018 completed successfully
+2015-03-05 16:46:03,122 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=338020516
+		FILE: Number of bytes written=681589578
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=6424
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=88
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=2449437801
+		S3: Number of bytes written=960055494
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=45
+		Launched reduce tasks=11
+		Data-local map tasks=45
+		Total time spent by all maps in occupied slots (ms)=16005330
+		Total time spent by all reduces in occupied slots (ms)=25012992
+		Total time spent by all map tasks (ms)=5335110
+		Total time spent by all reduce tasks (ms)=3126624
+		Total vcore-seconds taken by all map tasks=5335110
+		Total vcore-seconds taken by all reduce tasks=3126624
+		Total megabyte-seconds taken by all map tasks=4097364480
+		Total megabyte-seconds taken by all reduce tasks=6403325952
+	Map-Reduce Framework
+		Map input records=35110587
+		Map output records=35110587
+		Map output bytes=960055494
+		Map output materialized bytes=338034954
+		Input split bytes=6424
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=35110587
+		Reduce shuffle bytes=338034954
+		Reduce input records=35110587
+		Reduce output records=35110587
+		Spilled Records=70221174
+		Shuffled Maps =484
+		Failed Shuffles=0
+		Merged Map outputs=484
+		GC time elapsed (ms)=61235
+		CPU time spent (ms)=2993640
+		Physical memory (bytes) snapshot=28866019328
+		Virtual memory (bytes) snapshot=82222264320
+		Total committed heap usage (bytes)=28259647488
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=2449437801
+	File Output Format Counters 
+		Bytes Written=960055494
+2015-03-05 16:46:03,125 INFO amazon.emr.metrics.MetricsSaver (Thread-4): Saved 8:15 records to /mnt/var/em/raw/i-a2a3b1ae_20150305_RunJar_ 3588_raw.bin

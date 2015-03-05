@@ -1,16 +1,17 @@
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.*;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by vijay on 3/3/15.
  */
 public class Aggregate {
-    private static final String bigramFormat = "%s\t\n";
-    private static final String unigramFormat = "%s\tBx=%d,Cx=%d\n";
     private static final String FOREGROUND_DECADE = "1960";
     private static String[] STOP_WORD_ARRAY = {"i", "the", "to", "and", "a", "an", "of", "it", "you", "that", "in", "my", "is", "was", "for"};
     private static final Set<String> STOP_WORDS = new HashSet<String>(Arrays.asList(STOP_WORD_ARRAY));
@@ -24,8 +25,7 @@ public class Aggregate {
         return false;
     }
 
-    public static class AggregateMapper extends MapReduceBase implements
-            Mapper<LongWritable, Text, Text, Text> {
+    public static class AggregateMapper extends Mapper<LongWritable, Text, Text, Text> {
 
 
         private Text formatCount(boolean isForeground, boolean isBigram, int count) {
@@ -37,8 +37,7 @@ public class Aggregate {
         }
 
         @Override
-        public void map(LongWritable longWritable, Text value, OutputCollector<Text,
-                Text> outputCollector, Reporter reporter) throws IOException {
+        public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
             // Parse the line
             String[] tokens = value.toString().split("\t");
@@ -51,12 +50,12 @@ public class Aggregate {
                 boolean isBigram = phrase.contains(" ");
                 boolean isForeground = decade.equals(FOREGROUND_DECADE);
 
-                outputCollector.collect(new Text(phrase), formatCount(isForeground, isBigram, count));
+                context.write(new Text(phrase), formatCount(isForeground, isBigram, count));
             }
         }
     }
 
-    public static class AggregateReducer extends MapReduceBase implements
+    public static class AggregateReducer extends
             Reducer<Text, Text, Text, Text> {
 
         private Text formatOutput(boolean isBigram, int bgCount, int fgCount) {
@@ -68,17 +67,16 @@ public class Aggregate {
         }
 
         @Override
-        public void reduce(Text key, Iterator<Text> values,
-                           OutputCollector<Text, Text> context,
-                           Reporter reporter) throws IOException {
+        public void reduce(Text key, Iterable<Text> values,
+                           Context context) throws IOException, InterruptedException {
              /* Values are counts of form: Bxy=%d, Cxy=%d. Need to collect and reduce*/
             int bgCount = 0;
             int fgCount = 0;
             boolean isBigram = key.toString().contains(" ");
             String countType;
             int count;
-            while (values.hasNext()) {
-                String[] tokens = values.next().toString().split("=");
+            for (Text value : values) {
+                String[] tokens = value.toString().split("=");
                 countType = tokens[0];
                 count = Integer.valueOf(tokens[1]);
 
@@ -94,7 +92,7 @@ public class Aggregate {
                         fgCount += count;
                 }
             }
-            context.collect(key, formatOutput(isBigram, bgCount, fgCount));
+            context.write(key, formatOutput(isBigram, bgCount, fgCount));
 
         }
     }

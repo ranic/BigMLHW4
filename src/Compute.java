@@ -3,7 +3,8 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.*;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +17,7 @@ import java.util.regex.Pattern;
  * Created by vijay on 3/4/15.
  */
 public class Compute {
-    public static class ComputeMapper extends MapReduceBase implements
+    public static class ComputeMapper extends
             Mapper<LongWritable, Text, Text, Text> {
 
         private static final String SIZE_COUNT_PARAM = "sizeCountFile";
@@ -35,8 +36,9 @@ public class Compute {
         }
 
         @Override
-        public void configure(JobConf job) {
-            String sizeCountFilename = job.get(SIZE_COUNT_PARAM);
+        public void setup(Context context) {
+            Configuration conf = context.getConfiguration();
+            String sizeCountFilename = conf.get(SIZE_COUNT_PARAM);
             Path path = new Path(sizeCountFilename);
             try {
                 FileSystem fs = FileSystem.get(new Configuration());
@@ -54,14 +56,13 @@ public class Compute {
         }
 
         @Override
-        public void map(LongWritable longWritable, Text value, OutputCollector<Text,
-                Text> out, Reporter reporter) throws IOException {
+        public void map(LongWritable longWritable, Text value, Context context) throws IOException, InterruptedException {
             // Parse out phrases -> attributes pair
             String[] tokens = value.toString().split("\t");
             String curPhrase = tokens[0];
             String attributes = tokens[1];
             // Output phrase -> score
-            out.collect(new Text(curPhrase), computeScore(curPhrase, attributes));
+            context.write(new Text(curPhrase), computeScore(curPhrase, attributes));
         }
 
         private Text computeScore(String curPhrase, String attributes) {
@@ -91,14 +92,14 @@ public class Compute {
         }
     }
 
-    public static class ComputeReducer extends MapReduceBase implements Reducer<Text, Text, Text, Text> {
+    public static class ComputeReducer extends Reducer<Text, Text, Text, Text> {
         @Override
-        public void reduce(Text key, Iterator<Text> values,
-                           OutputCollector<Text, Text> out,
-                           Reporter reporter) throws IOException {
+        public void reduce(Text key, Iterable<Text> values,
+                           Context context) throws IOException, InterruptedException {
             // Identity Reducer: Just outputs the first value from values
-            if (values.hasNext())
-                out.collect(key, values.next());
+            Iterator<Text> iter = values.iterator();
+            if (iter.hasNext())
+                context.write(key, iter.next());
         }
     }
 
