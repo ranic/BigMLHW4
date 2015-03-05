@@ -14,6 +14,10 @@ import java.io.IOException;
  */
 public class run_hadoop_phrase {
 
+    private static Path filenameFromPath(Path p) {
+        return new Path(p.toString() + "/part-00000");
+    }
+
     public static Job createAggregateJob(Path unigramInput, Path bigramInput, Path aggregatedOut) throws IOException{
         JobConf conf = new JobConf(Aggregate.class);
         conf.setJobName("Aggregate");
@@ -32,7 +36,7 @@ public class run_hadoop_phrase {
     }
 
     public static Job createCountSizeJob(Path aggregatedInput, Path sizeCountTmp) throws IOException {
-        Path input = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
+        Path input = filenameFromPath(aggregatedInput);
         JobConf conf = new JobConf();
 
         conf.setOutputKeyClass(Text.class);
@@ -49,7 +53,7 @@ public class run_hadoop_phrase {
     }
 
     public static Job createMessageUnigramJob(Path aggregatedInput, Path messageUnigramRequestsTmp) throws IOException {
-        Path aggregatedInputFile = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
+        Path aggregatedInputFile = filenameFromPath(aggregatedInput);
         JobConf conf = new JobConf();
 
         conf.setOutputKeyClass(Text.class);
@@ -66,8 +70,8 @@ public class run_hadoop_phrase {
     }
 
     public static Job createBigramCountsJob(Path aggregatedInput, Path messageUnigramInput, Path bigramCountsTmp) throws IOException {
-        Path unigramInputFile = Path.mergePaths(messageUnigramInput, new Path("/part-00000"));
-        Path aggregatedInputFile = Path.mergePaths(aggregatedInput, new Path("/part-00000"));
+        Path unigramInputFile = filenameFromPath(messageUnigramInput);
+        Path aggregatedInputFile = filenameFromPath(aggregatedInput);
 
         JobConf conf = new JobConf();
 
@@ -85,7 +89,7 @@ public class run_hadoop_phrase {
     }
 
     public static Job createComputeJob(Path bigramCountsInput, Path finalOutput, Path sizeCountTmp) throws IOException {
-        Path bigramCountsFile = Path.mergePaths(bigramCountsInput, new Path("/part-00000"));
+        Path bigramCountsFile = filenameFromPath(bigramCountsInput);
         JobConf conf = new JobConf();
 
         conf.setOutputKeyClass(Text.class);
@@ -104,7 +108,7 @@ public class run_hadoop_phrase {
     }
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         Path unigramInput = new Path(args[0]);
         Path bigramInput = new Path(args[1]);
         Path aggregatedTmp = new Path(args[2]);
@@ -136,7 +140,16 @@ public class run_hadoop_phrase {
         control.addJob(computeJob);
 
         // Run all jobs
-        control.run();
+        Thread t = new Thread(control);
+        t.start();
+
+        while (!control.allFinished()) {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {}
+        }
+        control.stop();
+        return;
     }
 
 
